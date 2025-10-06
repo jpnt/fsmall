@@ -14,7 +14,6 @@ enum Input {
     OffPress,
 }
 
-
 static TRANSITIONS: [(u8, Input, u8); 8] = [
     (LIGHT_OFF, Input::OnPress, LIGHT_ON_DIMMED),
     (LIGHT_ON_DIMMED, Input::OffPress, LIGHT_OFF),
