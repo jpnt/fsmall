@@ -1,8 +1,9 @@
 [package]
 name = "fsmall"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 description = "Small finite state machine library with no allocations, supports Mealy and Moore"
+readme = "README.md"
 license = "MIT"
 repository = "https://github.com/jpnt/fsmall"
 keywords = ["fsm", "state-machine", "mealy", "moore", "no-std"]
